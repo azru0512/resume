@@ -1,0 +1,96 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+
+\name{Wei-Ren Chen} % Your name
+\address{chenwj.cs97g@g2.nctu.edu.tw} % Your email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf National Chiao Tung University, Taiwan (R.O.C.)} \hfill {\em June 2010} \\ 
+M.S. in Computer Science \& Engineering \\
+Teaching Assistant of Computer Science Computer Center \\
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Work Experience}
+
+\begin{rSubsection}{Huawei Technologies Co. Ltd}{December 2015 - Present}{Senior Software Engineer}{Zhejiang, China}
+\item Develop DSL for our wireless team, for programming L1/L2 of 4G/5G. The DSL is data-flow programming paradigm aims to help programmer focus on the in/out of each operations, and let the compiler do the code generation and optimizations. I involves in the language design, and implementing compiler (Scala) from the front-end to the back-end.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Generalplus Technology Inc.}{November 2013 - December 2015}{Software Engineer}{Hsinchu, Taiwan}
+\item Develop DSL for our 4-bit RISC-like processor. Instead of programming in the assembly, a DSL is implemented to help our customer reducing the time to market. The compiler is not only a standalone tool, but also integrated in our IDE to help our customer catching syntax and semantic errors in the early stage of development.
+\item Maintain 6502 C compiler and tool chain. The 6502 C compiler is derived from SDCC, integrated with our proprietary tool chain. My responsibilities also include helping our FAE programming the C code, and writing technical report to our customer (in English of course). 
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Academia Sinica}{October 2010 - August 2013}{Research Assistant}{Taipei, Taiwan}
+\item Research in compiler and virtualization techniques (QEMU and LLVM). Focus on binary translation and hardware performance profiling feedback optimization.
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	OPEN SOURCE EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Open Source Experience}
+
+\item 
+\begin{itemize}
+\item Cygwin hidapi port maintainer.
+\item Help LLVM community releasing its first ARM binary!
+\end{itemize}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Computer Languages & C/C++, Scala \\
+Tools & SVN/Git, Vim, Lex \& Yacc
+\end{tabular}
+
+\end{rSection}
+
+\end{document}
